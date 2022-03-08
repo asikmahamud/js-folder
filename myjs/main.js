@@ -9,14 +9,14 @@ console.log(x + y);
 let myarry = [1, 2, 3, 4, 5];
 myarry.push(6);
 myarry.shift();
-console.log();
+console.log(myarry);
 console.log(myarry[0]);
 
 // Conditions
 
 var age = 19;
 
-if (age < 18) {
+if (age > 18) {
   console.log("you can vote now");
 } else {
   console.log("you can not vote yet");
@@ -38,4 +38,5 @@ let tony = {
   country: "bangladesh",
   job: "web development",
 };
-console.log(tony.name, age);
+console.log(tony.name);
+console.log(tony.age);
